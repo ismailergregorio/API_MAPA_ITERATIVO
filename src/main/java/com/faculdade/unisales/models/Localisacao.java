@@ -1,6 +1,5 @@
 package com.faculdade.unisales.models;
 
-import com.faculdade.unisales.DTO.dtoLocalisacao;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

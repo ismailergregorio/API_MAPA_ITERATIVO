@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.faculdade.unisales.models.Categoria;
 
 @Repository
-public interface repositoryCategoria extends JpaRepository<Categoria,Long>{
- Optional<Categoria> findById(Long id);
- 
+public interface repositoryCategoria extends JpaRepository<Categoria,Long> {
+    Optional<Categoria> findById(Long id);
+
 }
