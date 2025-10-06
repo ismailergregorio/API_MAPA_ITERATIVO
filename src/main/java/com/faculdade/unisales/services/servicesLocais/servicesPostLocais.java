@@ -22,7 +22,6 @@ public class servicesPostLocais {
 
  public ResponseEntity<Localisacao> addLocal(dtoLocalisacao local) {
     Optional<Categoria> c = repositoryCategoria.findById(local.getIdcategoria());
-    System.out.println("----------------------------"+local.getIdcategoria());
     if(!c.isPresent()){
       return ResponseEntity.badRequest().build();
     }
