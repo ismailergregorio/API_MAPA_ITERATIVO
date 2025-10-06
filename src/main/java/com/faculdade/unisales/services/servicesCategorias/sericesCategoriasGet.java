@@ -12,14 +12,14 @@ import com.faculdade.unisales.models.Categoria;
 import com.faculdade.unisales.repository.repositoryCategoria;
 
 @Service
-public class sericesCategoriaGet {
+public class sericesCategoriasGet {
  @Autowired
  repositoryCategoria repositoryCategoria;
 
- public List<dtoCategoria> getCategorias(){
+ public List<Categoria> getCategorias(){
   List<Categoria> categoriasEncontrada = new ArrayList<>();
   categoriasEncontrada = repositoryCategoria.findAll();
-  return categoriasEncontrada.stream().map(dtoCategoria::new).toList();
+  return categoriasEncontrada;
  }
 
 }

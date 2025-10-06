@@ -1,0 +1,6 @@
+2025-10-02 20:18:39.652689-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_CATEGORIA_DOS_LOCAIS" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.descricao,c1_0.nome from tb_categoria_dos_locais c1_0 [42104-232]
+2025-10-02 20:18:59.710731-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TB_CATEGORIA_DOS_LOCAIS" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.descricao,c1_0.nome from tb_categoria_dos_locais c1_0 [42104-232]
